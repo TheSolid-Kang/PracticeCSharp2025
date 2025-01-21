@@ -26,6 +26,5 @@ namespace PracticeCSharp2025.CPractice
         {
 
         }
-
     }
 }

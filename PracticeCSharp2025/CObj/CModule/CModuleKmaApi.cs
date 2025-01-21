@@ -6,24 +6,27 @@ using System.Threading.Tasks;
 
 namespace PracticeCSharp2025.CObj.CModule
 {
+    /// <summary>
+    /// 기상청 API 기능 모듈
+    /// </summary>
     internal class CModuleKmaApi : CModule
     {
         public CModuleKmaApi() { }
-        public virtual void Initialize()
+        public override void Initialize()
         {
-
+            base.Initialize();
         }
-        public virtual void Render()
+        public override void Render()
         {
-
+            base.Render();
         }
-        public virtual void Update()
+        public override void Update()
         {
-
+            base.Update();
         }
-        public virtual void Release()
+        public override void Release()
         {
-
+            base.Release();
         }
     }
 }

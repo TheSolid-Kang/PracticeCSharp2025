@@ -9,21 +9,21 @@ namespace PracticeCSharp2025.CObj.CModule
     internal class CModule : CObj
     {
         public CModule() { }
-        public virtual void Initialize()
+        public override void Initialize()
         {
-
+            base.Initialize();
         }
-        public virtual void Render()
+        public override void Render()
         {
-
+            base.Render();
         }
-        public virtual void Update()
+        public override void Update()
         {
-
+            base.Update();
         }
-        public virtual void Release()
+        public override void Release()
         {
-
+            base.Release();
         }
     }
 }
