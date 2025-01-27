@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeCSharp2025.CObj
+namespace PracticeCSharp2025.Object
 {
     public class CObj
     {

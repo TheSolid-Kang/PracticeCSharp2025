@@ -1,26 +1,24 @@
 ﻿using Moq;
-using PracticeCSharp2025.CObj;
+using PracticeCSharp2025.Object;
 using System;
 using Xunit;
 
-namespace PracticeCSharp2025.Test.CObj
+namespace PracticeCSharp2025.Test.Object
 {
     public class CObjTests
     {
-        private MockRepository mockRepository;
-
-
-
         public CObjTests()
         {
             this.mockRepository = new MockRepository(MockBehavior.Strict);
-
-
         }
 
-        private PracticeCSharp2025.CObj.CObj CreateCObj()
+
+        private MockRepository mockRepository;
+
+
+        private CObj CreateCObj()
         {
-            return new PracticeCSharp2025.CObj.CObj();
+            return new CObj();
         }
 
         [Fact]

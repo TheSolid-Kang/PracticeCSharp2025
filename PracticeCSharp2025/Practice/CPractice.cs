@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeCSharp2025.CPractice
+namespace PracticeCSharp2025.Practice
 {
     public class CPractice
     {

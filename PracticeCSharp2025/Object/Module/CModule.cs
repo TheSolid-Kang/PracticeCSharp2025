@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeCSharp2025.CObj.CModule
+namespace PracticeCSharp2025.Object.CModule
 {
     internal class CModule : CObj
     {

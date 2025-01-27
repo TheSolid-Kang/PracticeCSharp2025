@@ -4,14 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeCSharp2025.CObj.CModule
+namespace PracticeCSharp2025.Practice
 {
     /// <summary>
-    /// 기상청 API 기능 모듈
+    /// 기상청 API 기능 모듈 연습
     /// </summary>
-    internal class CModuleKmaApi : CModule
+    internal class CPracticeKmaApiModule : CPractice
     {
-        public CModuleKmaApi() { }
+        public CPracticeKmaApiModule()
+        {
+            Initialize();
+        }
         public override void Initialize()
         {
             base.Initialize();
